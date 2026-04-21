@@ -1,0 +1,29 @@
+{
+  "name": "cole-job-agent-v3",
+  "version": "3.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  },
+  "homepage": "https://cgluckst-code77.github.io/cole-job-tracker",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
